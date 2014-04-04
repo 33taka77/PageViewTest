@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fk-SE-9T9">
-                                <rect key="frame" x="123" y="491" width="75" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fk-SE-9T9">
+                                <rect key="frame" x="123" y="538" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start again">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -28,6 +28,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="5fk-SE-9T9" secondAttribute="bottom" id="6z5-BS-Gzb"/>
+                            <constraint firstItem="5fk-SE-9T9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="123" id="HQU-M7-1MB"/>
+                            <constraint firstAttribute="trailing" secondItem="5fk-SE-9T9" secondAttribute="trailing" constant="122" id="Xt5-93-3xS"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="5fk-SE-9T9" secondAttribute="bottom" id="xTk-DN-Rz6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
